@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  padding-top: 7rem;
+}
+#page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  main {
+    flex-grow: 1;
+  }
+}
