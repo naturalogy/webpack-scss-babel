@@ -1,5 +1,5 @@
 node_modules/
-dist/img/
+dist/bundle.js
 package-lock.json
 yarn.lock
 logs
