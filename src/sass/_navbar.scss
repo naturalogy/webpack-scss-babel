@@ -1,0 +1,15 @@
+#global-nav {
+  .dropdown {
+    >.dropdown-menu {
+      top: calc(100% - .2rem);
+      padding: 0;
+    }
+    &:hover {
+      >.dropdown-menu {
+        @include media-breakpoint-up(md) {
+          display: block;
+        }
+      }
+    }
+  }
+}
