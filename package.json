@@ -2,12 +2,13 @@
   "name": "webpack-scss-babel",
   "version": "0.1.0",
   "description": "A Bootstrap boilerplate with Webpack for Sass and Babel, optimized for Japanese contents.",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "prod": "webpack --mode=production",
     "dev": "webpack-dev-server --mode=development"
   },
-  "author": "Shtr Skmt",
+  "author": "S. Skmt",
+  "homepage": "https://naturalogy.net/",
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
