@@ -1,3 +1,11 @@
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, '游ゴシック体', YuGothic, 'Yu Gothic Medium', sans-serif;
+$font-family-sans-serif:
+  // macOS and iOS
+  -apple-system, BlinkMacSystemFont, '游ゴシック体',
+  // Windows
+  YuGothic, 'Yu Gothic Medium',
+  // Android
+  "Roboto",
+  // Basic web fallback
+  sans-serif;
 $line-height-base: 1.75;
 $enable-rounded: false;
